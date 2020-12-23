@@ -32,6 +32,7 @@ spec:
       containers:
       - name: primary
         image: docker.io/ngtaeut/spinnaker
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
         readinessProbe:
